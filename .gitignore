@@ -1,0 +1,15 @@
+.bundle
+.cache
+.DS_Store
+
+.tscache
+node_modules/
+
+# Tools, notes, outputs
+__*.*
+__*
+
+# Built files
+dist
+.zip
+

@@ -1,0 +1,21 @@
+{
+  "name": "functional-hacking",
+  "version": "1.0.0",
+  "description": "Hacking functional things",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/index.js",
+    "watch-node": "nodemon dist/index.js",
+    "watch-ts": "tsc -w"
+  },
+  "author": "Dave Bouwman <dave@davebouwman.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.5",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6",
+    "@types/node": "^10.11.7"
+  }
+}
